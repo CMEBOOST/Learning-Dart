@@ -30,6 +30,11 @@
 ```powershell
 choco install dart-sdk
 ```
+หากใช้ choco ไม่ได้แนะนำให้ใช้ scoop หรือดาวน์โหลดจากเว็บไซต์ Dart โดยตรง
+และะเพิ่ม เพิ่ม Dart เข้า PATH
+```powershell
+scoop install dart
+```
 
 **macOS (Homebrew):**
 ```bash
@@ -42,7 +47,6 @@ brew install dart
 sudo apt-get update
 sudo apt-get install dart
 ```
-หากใช้ choco ไม่ได้แนะนำให้ใช้ scoop หรือดาวน์โหลดจากเว็บไซต์ Dart โดยตรง
 
 ### 3️⃣ ติดตั้ง Extensions ใน VS Code
 - **Dart** (Official Extension)
